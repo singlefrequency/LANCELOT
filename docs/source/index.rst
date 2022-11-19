@@ -9,7 +9,7 @@ LANCELOT is the library for the Large Scale Structure of the Universe, that impl
 - :math:`f(Q)` gravity with regular fluid, Dynamical Dark Energy (DDE) and massive neutrinos :math:`(1+1)\times2` simulations
 -  :math:`f(T)` gravity with regular fluid, Dynamical Dark Energy (DDE) and massive neutrinos :math:`(1+1)\times2` simulations
 -  :math:`f(T,B)` gravity with regular fluid, Dynamical Dark Energy (DDE) and massive neutrinos :math:`(1+1)\times2` simulations
-All aforementioned simulations are carried out with the box size :math:`L_{\mathrm{box}}=500\mathrm{\;Mpc}/h`. However, it is planned to also investigate aforementioned theories of gravitation on the smaller scales with bigger resolution of separate galaxies. For that case, we assume :math:`L_{\mathrm{box}}=100\mathrm{\;Mpc}/h`. Softening scales are redefined accordingly.
+All aforementioned simulations are carried out with the box size :math:`L_{\mathrm{box}}=500\mathrm{\;Mpc}/h`. However, it is planned to also investigate aforementioned theories of gravitation on the smaller scales with bigger resolution of separate galaxies and galaxy clusters (12 simulations in total). For that case, we assume :math:`L_{\mathrm{box}}=100\mathrm{\;Mpc}/h`. Softening scales are redefined accordingly.
 
 Contents
 --------
