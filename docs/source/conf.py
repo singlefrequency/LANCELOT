@@ -39,11 +39,6 @@ html_theme_options = {
     "navbar_end": ["navbar-icon-links"]
 
 }
-html_theme_options {
-    ...
-    # Note we have omitted `theme-switcher` below
-    "navbar_end": ["navbar-icon-links"]
-}
 #html_css_files = 'custom.css'
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
