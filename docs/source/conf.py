@@ -35,7 +35,7 @@ html_logo = 'lancelot.svg'
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
-    "default_mode": "light".
+    "default_mode": "light",
     "navbar_end": ["navbar-icon-links"]
 
 }
