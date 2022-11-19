@@ -1,17 +1,8 @@
-Welcome to Lumache's documentation!
-===================================
+LANCELOT
+=======================================
+LANCELOT is the library for the Large Scale Structure of the Universe, that implements various modified theories of gravitation, such as $f(Q)$, $f(T)$ and 
+$f(T,B)$ gravities in the presence of massive neutrinos.
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
 
 Contents
 --------
