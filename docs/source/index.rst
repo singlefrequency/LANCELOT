@@ -1,4 +1,4 @@
-.. image:: _static/lancelot.svg
+.. image:: _static/new_logo.svg
    :align: center
 
 LANCELOT
