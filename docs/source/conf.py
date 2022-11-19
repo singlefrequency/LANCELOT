@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'LANCELOT'
-copyright = '2022, Sokoliuk'
-author = 'Sokoliuk'
+copyright = '2022, Oleksii Sokoliuk'
+author = 'Oleksii Sokoliuk'
 
 release = '0.1'
 version = '0.1.0'
@@ -32,7 +32,7 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-html_logo = 'lancelot.svg'
+html_logo = 'new_logo.svg'
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
