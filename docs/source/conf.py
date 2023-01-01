@@ -44,6 +44,14 @@ html_theme_options = {
     "navbar_end": ["navbar-icon-links"]
 
 }
+html_context = {
+    'landing_page': {
+        'menu': [
+            {'title': 'Get Started', 'url': 'installing.html'},
+            {'title': 'GitHub', 'url': 'https://github.com/user/repo'}
+        ]
+    }
+}
 #html_css_files = 'custom.css'
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
