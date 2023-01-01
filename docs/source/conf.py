@@ -22,36 +22,68 @@ extensions = [
     "revitron_sphinx_theme"
 ]
 
-intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
-}
-intersphinx_disabled_domains = ['std']
+autodoc_mock_imports = ['pyrevit', 'rpw', 'Autodesk', 'clr', 'System', 'Microsoft']
 
+add_module_names = False
+
+napoleon_google_docstring = True
+napoleon_include_init_with_doc = True
+napoleon_include_private_with_doc = False
+napoleon_include_special_with_doc = True
+napoleon_use_admonition_for_examples = False
+napoleon_use_admonition_for_notes = True
+napoleon_use_admonition_for_references = True
+napoleon_use_ivar = False
+napoleon_use_param = True
+napoleon_use_rtype = True
+
+# Open Graph extension config. https://pypi.org/project/sphinxext-opengraph/
+ogp_site_url = "https://revitron.readthedocs.io/"
+
+# Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-# -- Options for HTML output
+# List of patterns, relative to source directory, that match files and
+# directories to ignore when looking for source files.
+# This pattern also affects html_static_path and html_extra_path.
+exclude_patterns = ['modules.rst']
 
+# -- Options for HTML output -------------------------------------------------
 
-html_theme = "revitron_sphinx_theme"
-html_static_path = ['_static']
-html_logo = 'new_logo.svg'
+# The theme to use for HTML and HTML Help pages.  See the documentation for
+# a list of builtin themes.
+#
+#html_theme = 'alabaster'
+
+html_theme = 'revitron_sphinx_theme'
 html_theme_options = {
-    'logo_only': True,
-    'display_version': False,
-    "default_mode": "dark",
-    'color_scheme': 'dark',
-    "navbar_end": ["navbar-icon-links"]
-
+    'navigation_depth': 5,
+    'github_url': 'https://github.com/revitron/revitron',
+    'color_scheme': 'dark'
 }
+
+html_title = 'Revitron'
+
 html_context = {
     'landing_page': {
-        'menu': [
-            {'title': 'Get Started', 'url': 'installing.html'},
-            {'title': 'GitHub', 'url': 'https://github.com/user/repo'}
-        ]
+        'menu': [{
+            'title': 'Revitron UI',
+            'url': 'https://revitron-ui.readthedocs.io/'
+        }, {
+            'title': 'Developer Guide',
+            'url': 'revitron.html'
+        }, {
+            'title': '♡ Sponsor',
+            'url': 'https://github.com/sponsors/marcantondahmen'
+        }]
     }
 }
-#html_css_files = 'custom.css'
-# -- Options for EPUB output
-epub_show_urls = 'footnote'
+
+html_sidebars = {}
+
+# Add any paths that contain custom static files (such as style sheets) here,
+# relative to this directory. They are copied after the builtin static files,
+# so a file named "default.css" will overwrite the builtin "default.css".
+html_static_path = ['_static']
+
+html_js_files = []
