@@ -4,3 +4,4 @@ sphinx-design
 sphinx-inline-tabs
 sphinx-tabs
 furo
+revitron_sphinx_theme
