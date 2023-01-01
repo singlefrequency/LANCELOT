@@ -1,7 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
-!pip install https://github.com/revitron/revitron-sphinx-theme/archive/master.zip
 import revitron_sphinx_theme
 
 project = 'LANCELOT'
