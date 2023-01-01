@@ -34,13 +34,13 @@ templates_path = ['_templates']
 
 
 html_theme = "revitron_sphinx_theme"
-html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_logo = 'new_logo.svg'
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
-    "default_mode": "light",
+    "default_mode": "dark",
+    'color_scheme': 'dark',
     "navbar_end": ["navbar-icon-links"]
 
 }
