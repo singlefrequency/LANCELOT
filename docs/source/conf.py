@@ -1,6 +1,7 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
+import revitron_sphinx_theme
 
 project = 'LANCELOT'
 copyright = '2022, Oleksii Sokoliuk'
@@ -17,7 +18,8 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    "sphinx_rtd_theme"
+    "sphinx_rtd_theme",
+    "revitron_sphinx_theme"
 ]
 
 intersphinx_mapping = {
@@ -30,6 +32,8 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
+
+html_theme = "revitron_sphinx_theme"
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_logo = 'new_logo.svg'
