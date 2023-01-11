@@ -4,4 +4,3 @@ sphinx-design
 sphinx-inline-tabs
 sphinx-tabs
 furo
-https://github.com/revitron/revitron-sphinx-theme/archive/master.zip
